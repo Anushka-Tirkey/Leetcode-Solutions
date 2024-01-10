@@ -19,7 +19,7 @@ class Solution
                 arr[i]=0;
             else if(i>=count0 && i<(count0+count1))
                 arr[i]=1;
-            else if(i>=(count1+count0))
+            else //if(i>=(count1+count0))
                 arr[i]=2;
         }
         for(int i=0; i<n; i++)
