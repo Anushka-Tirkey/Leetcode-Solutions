@@ -17,8 +17,8 @@ class Solution
                 if(sum>max)
                     max=sum;
             }
-            else if(n2==n1)
-                continue;
+            //else if(n2==n1)
+                //continue;
             else
             {
                 sum=1;
