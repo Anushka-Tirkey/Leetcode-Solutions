@@ -19,20 +19,11 @@ class Solution {
         }
         int s= list1.size();
         int i=0;
-        // if(list1.size()%2==1)
-        // {
             while(i<s/2)
             {
                 temp=temp.next;
                 i++;
             }
             return temp;
-        //}    
-        // while(i<=(s/2)+1)
-        //     {
-        //         temp=temp.next;
-        //         i++;
-        //     }
-        //     return temp;
     }
 }
